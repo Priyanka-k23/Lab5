@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>IMAGES DISPLAY</title>
+<style>
+body{
+            background-color: #ffc0cb;
+}
+
+
+.look{
+                display: flex;
+                 flex-wrap: column wrap;
+                 flex-flow: row flow;
+                 justify-content: space-between;
+                 padding : 50px;
+}
+img{
+         height : 300px;
+         width: 300px;
+         margin: 20px;
+         transition : height 0.5s, width 0.5s, transform 0.15s;
+         box-shadow: 15px 15px 15px #006400;
+       }
+
+img:hover { 
+                          width: 600px;
+                           height: 400 px;
+                           transform: scale(1.5);
+                           transform:  rotate(360deg);
+                  }
+
+h1{
+      text-align: center;
+      color: #00008b;
+      }
+</style>
+<body>
+<h1>IMAGE DISPLAY</h1>
+<div class="look">
+<img src="i.jpg">
+<img src="j.jpg">
+<img src="k.jpg">
+<img src="l.jpeg">
+<img src="m.jpg">
+<img src="n.jpg">
+</div>
+</body>
+</html>
